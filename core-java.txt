@@ -41,7 +41,7 @@ A Java object is a member (also called an instance) of a Java class. Each object
 
 What is the entry point of a Java project?
 Answer:
-
+A Java entry-point class has a main method with the following signature and modifiers: public static void main(String[] args) Sidenote: because of how arrays work, it can also be (String args[]) When the java command starts the virtual machine, it loads the specified entry-point classes and tries to find main .
 Why is the main() method static?
 Answer:
 
