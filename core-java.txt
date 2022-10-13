@@ -1,0 +1,199 @@
+***ANSWER ALL OF THE QUESTIONS BELOW***
+
+What is a programming language?
+Answer:
+A programming language is a vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks.
+
+What is a JDK composed of? Define each components?
+Answer:
+JDK (Java Development Kit) is a software development environment used to develop and execute(run) the JAVA program. JDK is everything. JDK is JRE and JVM. JDK is a kit or package that includes tow things. Development tools( to provide an environment to develop your java programs.  JRE (to execute your Java programing)
+JRE (Java Runtime Environment) is an installation package that provides an environment to only run(not develop) the java program(or application)onto your machine. JRE is only used by those who only want to run Java programs that are end-users of your system.
+JVM (java virtual machine) is a very important part of both JDK and JRE because it is contained or inbuilt in both. Whatever Java program you run using JRE or JDK goes into JVM and JVM is responsible for executing the java program line by line, hence it is also known as an interpreter.
+
+
+What is an IDE?
+Answer:
+An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently. It increases developer productivity by combining capabilities such as software editing, building, testing, and packaging in an easy-to-use application.
+
+What are some of the most popular Java IDEs available in the market?
+Answer:
+Eclipse.
+IntelliJ IDEA.
+
+
+Explain the entire java life cycle.
+Answer:
+Life cycle of a java program tells us what happens right from the point when we type source code in a text editor to the point that source code is converted into machine code
+There are three main stages in the life cycle of a java program. They are: Editing the program, Compiling the source code, Executing the byte code
+The Java application life cycle. We can use any text editor to create the high-level Java text file. This file is saved as a .java file on the disk. We then compile this text file using the Java compiler, which result in a .class file being created on the disk. The .class file contains the bytecodes. The file is then loaded into memory by the class loader. The bytecode verifier confirms that the bytecodes are valid and not hostile. Finally, the JVM reads the bytecodes in memory and translates them into machine code. The latest release of Java 2 includes two virtual machine implementations:
+Java HotSpot Client VM - A virtual machine tuned for single-user client applications that require fast start-up times and low memory usage.
+Java HotSpot Server VM - A virtual machine tuned for multi-user applications running in a server environment. This VM includes active compilation (compiling sections of code, requiring high usage), high performance memory and thread managment. (Simply invoke by passing -server to the standard VM on execution, e.g. java -server HelloWorld)
+
+
+What is a class?
+Answer:
+A class is a template used to create objects and to define object data types and methods. Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.A Class is like an object constructor, or a "blueprint" for creating objects.
+
+What is an object?
+Answer:
+A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created at runtime from templates, which are also known as classes. For example: in real life, a car is an object.
+
+
+What is the entry point of a Java project?
+Answer:
+
+Why is the main() method static?
+Answer:
+
+Which class is the superclass of all classes?
+Answer:
+
+What is difference between path and classpath variables?
+Answer:
+
+What is the difference between an Interface and Abstract class?
+Answer:
+
+Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
+Answer:
+
+What is Access Modifier?
+Answer:
+
+What is OOP? Define each OOP concept.
+Answer:
+
+What is Java Package and which package is imported by default?
+Answer:
+
+What is an API? List some API's that you have used so far.
+Answer:
+
+Does java support multiple inheritance? Why or why not?
+Answer:
+
+What is method overloading? List all of the different ways to overload.
+Answer:
+
+Explain exceptions in java and how to handle them.
+Answer:
+
+What is static keyword? When and how do we use it?
+Answer:
+
+What is final keyword? When and how do we use it?
+Answer:
+
+Explain the difference between final, finally and finalize?
+Answer:
+
+What is a constructor?
+Answer:
+
+Can we have multiple constructors in a class?
+Answer:
+
+If we don't have a constructor declared, what is called during the object creation?
+Answer:
+
+What is "this" keyword in Java? When would we use it?
+Answer:
+
+What is "super" keyword in Java? What are some scenarios we would use it?
+Answer:
+
+What does JVM stand for?
+Answer:
+
+Is JVM platform independent?
+Answer:
+
+What version of Java are you using?
+Answer:
+
+What does JAR stand for?
+Answer:
+
+What is the difference between JDK and JVM?
+Answer:
+
+What is the difference between JVM and JRE?
+Answer:
+
+Explain the difference between compile-time and run-time?
+Answer:
+
+What is heap?
+Answer:
+
+How does Java manage its memory?
+Answer:
+
+What is the difference between String, StringBuffer and StringBuilder?
+Answer:
+
+What is Singleton class?
+Answer:
+
+What is Serialization and Deserialization?
+Answer:
+
+Explain the difference between While and Do..While loops?
+Answer:
+
+What is Enum?
+Answer:
+
+What is Iterator?
+Answer:
+
+Which one will take more memory: an int or Integer? Why?
+Answer:
+
+Why are Strings considered to be immutable in Java?
+Answer:
+
+What is constructor chaining in Java?
+Answer:
+
+The difference between Serial and Parallel Garbage Collector?
+Answer:
+
+What does JIT stands for?
+Answer:
+
+Explain the process of Java garbage collection?
+Answer:
+
+Can you guarantee the garbage collection process?
+Answer:
+
+What is the difference between stack and heap in Java?
+Answer:
+
+What is reflection in Java and why is it useful?
+Answer:
+
+What is multithreading in Java?
+Answer:
+
+What is synchronization in Java?
+Answer:
+
+What is a Framework?
+Answer:
+
+What are the testing Frameworks available in Java?
+Answer:
+
+What are jUnit and testNG?
+Answer:
+
+What are the dependencies for this project?
+Answer:
+
+What is dependency injection in Java?
+Answer:
+
+Explain what static binding and dynamic binding is?
+Answer:
